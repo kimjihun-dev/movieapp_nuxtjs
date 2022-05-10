@@ -1,0 +1,91 @@
+<!doctype html>
+<html data-n-head-ssr lang="ko" data-n-head="%7B%22lang%22:%7B%22ssr%22:%22ko%22%7D%7D">
+  <head>
+    <title>Nuxt Movie App</title><meta data-n-head="ssr" charset="utf-8"><meta data-n-head="ssr" name="viewport" content="width=device-width,initial-scale=1"><meta data-n-head="ssr" name="format-detection" content="telephone=no"><meta data-n-head="ssr" data-hid="description" name="description" content="themoviedb api - nuxt framework app"><link data-n-head="ssr" rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="preload" href="/_nuxt/280189d.js" as="script"><link rel="preload" href="/_nuxt/2e97453.js" as="script"><link rel="preload" href="/_nuxt/0320fe3.js" as="script"><link rel="preload" href="/_nuxt/2b7e5a1.js" as="script"><link rel="preload" href="/_nuxt/4a3d2f3.js" as="script"><style data-vue-ssr-id="0acfe7c0:0 0acfe7c0:1 fa7ff0ca:0 28f1127f:0 376cc940:0">@import url(https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600&display=swap);*{margin:0;padding:0;box-sizing:border-box;font-family:Karla,sans-serif;scroll-behavior:smooth}.page-enter-active,.page-leave-active{transition:opacity .5s}.page-enter,.page-leave-to{opacity:0}.app{background-color:#211f1f;min-height:100vh}.button{display:inline-block;text-decoration:none;color:inherit;padding:8px 16px;background-color:#c92502;border:none;color:#fff;border-radius:4px;cursor:pointer;transition:all .3s ease}.button:hover{background-color:#891b02}.button-light{background-color:transparent;border:1px solid #c92502}.button-light:hover{border-color:transparent}.container{max-width:1400px;margin:0 auto}.nuxt-progress{position:fixed;top:0;left:0;right:0;height:2px;width:0;opacity:1;transition:width .1s,opacity .4s;background-color:#000;z-index:999999}.nuxt-progress.nuxt-progress-notransition{transition:none}.nuxt-progress-failed{background-color:red}.home .loading{padding-top:120px;align-items:flex-start}.home .search{display:flex;padding:32px 16px}.home .search input{max-width:350px;width:100%;padding:12px 6px;font-size:14px;border:none}.home .search input:focus{outline:0}.home .search .button{border-top-left-radius:0;border-bottom-left-radius:0}.home .movies{padding:23px 16px}.home .movies-grid{display:grid;grid-column-gap:32px;-moz-column-gap:32px;column-gap:32px;grid-row-gap:64px;row-gap:64px;grid-template-columns:1fr}@media(min-width:500px){.home .movies-grid{grid-template-columns:repeat(2,1fr)}}@media(min-width:750px){.home .movies-grid{grid-template-columns:repeat(3,1fr)}}@media(min-width:1100px){.home .movies-grid{grid-template-columns:repeat(4,1fr)}}.home .movies-grid .movie{position:relative;display:flex;flex-direction:column}.home .movies-grid .movie .movie-img{position:relative;overflow:hidden}.home .movies-grid .movie .movie-img:hover .overview{transform:translateY(0)}.home .movies-grid .movie .movie-img img{display:block;width:100%;height:100%}.home .movies-grid .movie .movie-img .review{position:absolute;top:0;left:0;display:flex;justify-content:center;align-items:center;width:40px;height:40px;background-color:#c92502;color:#fff;border-radius:0 0 16px 0;box-shadow:0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -1px rgba(0,0,0,.06)}.home .movies-grid .movie .movie-img .overview{line-height:1.5;position:absolute;bottom:0;background-color:rgba(201,38,2,.9);padding:12px;color:#fff;transform:translateY(100%);transition:all .3s ease-in-out}.home .movies-grid .movie .info{margin-top:auto}.home .movies-grid .movie .info .title{margin-top:8px;color:#fff;font-size:20px}.home .movies-grid .movie .info .release{font-size:14px;margin-top:8px;margin-bottom:8px;color:#c9c9c9}.home .movies-grid .movie .info .button{margin-top:8px}.hero[data-v-ac458e26]{height:400px;position:relative}@media(min-width:750px){.hero[data-v-ac458e26]{height:500px}}.hero[data-v-ac458e26]:after{content:"";position:absolute;top:0;left:0;background-color:rgba(0,0,0,.6)}.hero img[data-v-ac458e26],.hero[data-v-ac458e26]:after{height:100%;width:100%}.hero img[data-v-ac458e26]{-o-object-fit:cover;object-fit:cover}.hero .text-container[data-v-ac458e26]{z-index:99;position:absolute;top:0;margin:0;width:100%;height:100%;display:flex;flex-direction:column;justify-content:center}.hero .text-container .text[data-v-ac458e26]{padding:0 16px;width:100%;max-width:1400px;margin:0 auto}.hero .text-container .mini-heading[data-v-ac458e26]{font-weight:600;font-size:18px;text-transform:uppercase;color:#c92502;margin-bottom:8px}@media(min-width:750px){.hero .text-container .mini-heading[data-v-ac458e26]{font-size:22px}}.hero .text-container h1[data-v-ac458e26]{color:#fff;font-size:64px;font-weight:200;margin-bottom:8px}@media(min-width:750px){.hero .text-container h1[data-v-ac458e26]{font-size:84px}}.hero .text-container h1 span[data-v-ac458e26]{font-weight:500}.hero .text-container .button[data-v-ac458e26]{font-size:20px;align-self:flex-start}</style><link rel="preload" href="/_nuxt/static/1652190357/payload.js" as="script"><link rel="preload" href="/_nuxt/static/1652190357/manifest.js" as="script">
+  </head>
+  <body>
+    <div data-server-rendered="true" id="__nuxt"><!----><div id="__layout"><div class="app"><div data-fetch-key="0" class="home"><section class="hero" data-v-ac458e26><img src="/_nuxt/img/movieHero.cf8f334.jpg" alt data-v-ac458e26> <div class="text-container" data-v-ac458e26><div class="text" data-v-ac458e26><span class="mini-heading" data-v-ac458e26>Now Streaming</span> <h1 data-v-ac458e26><span data-v-ac458e26>Now</span> Streaming</h1> <a href="#moive-grid" class="button" data-v-ac458e26>View Movies</a></div></div></section> <section class="container search"><input placeholder="Search"> <button class="button" style="display:none">
+      Clear Search
+    </button></section> <section class="container movies"><div id="movie-grid" class="movies-grid"><div class="movie"><div class="movie-img"><img src="https://image.tmdb.org/t/p/w500//8dzKn3RtPWUJRG9ymSpi423eMNV.jpg" alt=""> <p class="review">7.7</p> <p class="overview">강력한 파워의 ‘너클즈’와 함께 돌아온 천재 과학자 ‘닥터 로보트닉’에 맞서 지구를 구하기 위해 ‘소닉’과 새로운 파트너 ‘테일즈’가 전 세계를 누비는 스피드 액션 블록버스터.</p></div> <div class="info"><p class="title">
+            수퍼 소닉 2<!----></p> <p class="release">
+            개봉일:
+            2022년 3월 30일
+          </p> <a href="/movies/675353" class="button button-light">More</a></div></div><div class="movie"><div class="movie-img"><img src="https://image.tmdb.org/t/p/w500//bCz71ysciwNL2xddSm25ufrgZ7V.jpg" alt=""> <p class="review">7.8</p> <p class="overview">지난 2년 간 고담시의 어둠 속에서 범법자들을 응징하며 배트맨으로 살아온 브루스 웨인. 알프레드와 제임스 고든 경위의 도움 아래 그는 도시의 부패한 공직자들과 고위 관료들 사이에서 복수의 화신으로 활약한다. 고담의 시장 선거를 앞두고 고담의 엘리트 집단을 목표로 잔악한 연쇄살인을 저지르는 수수께끼 킬러 리들러가 나타나자, 최고의 탐정 브루스 웨인이 수사에 나서고 남겨진 단서를 풀어가며 캣우먼, 펭귄, 카마인 팔코네, 리들러를 차례대로 만난다. 사이코 범인의 미스터리를 수사하면서 그 모든 증거가 자신을 향한 의도적인 메시지였음을 깨닫고,  리들러에게 농락 당한 배트맨은 광기에 사로잡힌다. 범인의 무자비한 계획을 막고 오랫동안 고담시를 썩게 만든 권력 부패의 고리를 끊어야 하지만, 부모님의 죽음에 얽힌 진실이 밝혀지자 복수와 정의 사이에서 갈등하는데...</p></div> <div class="info"><p class="title">
+            더 배트맨<!----></p> <p class="release">
+            개봉일:
+            2022년 3월 1일
+          </p> <a href="/movies/414906" class="button button-light">More</a></div></div><div class="movie"><div class="movie-img"><img src="https://image.tmdb.org/t/p/w500//vL5ktZauR0fZMDOHKjakb1idhuU.jpg" alt=""> <p class="review">7.5</p> <p class="overview">끝없이 균열되는 차원과 뒤엉킨 시공간의 멀티버스가 열리며 오랜 동료들, 그리고 차원을 넘어 들어온 새로운 존재들을 맞닥뜨리게 된 닥터 스트레인지. 대혼돈 속, 그는 예상치 못한 극한의 적과 맞서 싸워야만 하는데….</p></div> <div class="info"><p class="title">
+            닥터 스트레인지: 대혼돈의 멀티버스<!----></p> <p class="release">
+            개봉일:
+            2022년 5월 4일
+          </p> <a href="/movies/453395" class="button button-light">More</a></div></div><div class="movie"><div class="movie-img"><img src="https://image.tmdb.org/t/p/w500//x6KSvale7iuxLhsrEfhYNoICyfK.jpg" alt=""> <p class="review">7.7</p> <p class="overview">작전 설계부터 금고 해제, 해킹, 액션, 위장까지 완벽한 팀플레이를 펼치는 자타공인 최고의 나쁜 녀석들이 한순간의 실수로 체포된다.  하지만 그들도 착해질 수 있다는 ‘마멀레이드 박사’의 주장으로 나쁜 녀석들은 바른 생활 갓생 프로젝트에 투입되고, 이들은 다시 한번 자유의 몸을 위해 태어나 처음으로 바른 생활에 도전하게 되는데…  나쁜 녀석들의 사상 초유 바른 생활 갓생 프로젝트가 시작된다!</p></div> <div class="info"><p class="title">
+            배드 가이즈<!----></p> <p class="release">
+            개봉일:
+            2022년 3월 17일
+          </p> <a href="/movies/629542" class="button button-light">More</a></div></div><div class="movie"><div class="movie-img"><img src="https://image.tmdb.org/t/p/w500//t28iy60uX4sRZhKo2MMxCKyQw1a.jpg" alt=""> <p class="review">7</p> <p class="overview">인생 역전을 위해 완벽한 범죄를 설계한 형 대니와 아내의 수술비를 마련해야만 하는 동생 윌, 함께 자랐지만 서로 다른 인생을 살아온 두 형제는 각기 다른 목적을 위해 인생을 바꿀 위험한 계획에 뛰어들게 된다. 그러나 한 순간의 잘못된 선택으로 인해 모든 계획이 틀어지게 된 두 형제는 구급대원 캠과 부상당한 경찰이 탑승한 앰뷸런스를 탈취해 LA 역사상 가장 위험한 질주를 하게 되는데....</p></div> <div class="info"><p class="title">
+            앰뷸런스<!----></p> <p class="release">
+            개봉일:
+            2022년 3월 16일
+          </p> <a href="/movies/763285" class="button button-light">More</a></div></div><div class="movie"><div class="movie-img"><img src="https://image.tmdb.org/t/p/w500//3CvBuw9aoziJJAbqymmsF2drnzH.jpg" alt=""> <p class="review">6.7</p> <p class="overview"></p></div> <div class="info"><p class="title">
+            Virus-32<!----></p> <p class="release">
+            개봉일:
+            2022년 4월 21일
+          </p> <a href="/movies/893370" class="button button-light">More</a></div></div><div class="movie"><div class="movie-img"><img src="https://image.tmdb.org/t/p/w500//2xmJCxrt5t2dFhvwvmxZ5Cy577j.jpg" alt=""> <p class="review">6.5</p> <p class="overview">궤도를 이탈한 달이 지구를 향해 떨어지기 시작하면서 지구의 중력과 모든 물리적인 법칙이 붕괴된다. 거대한 해일과 지진, 화산폭발, 쓰나미와 이상기후까지 상상조차 불가능했던 모든 재난으로 전 세계는 공포와 혼란에 빠진다. 달과 충돌까지 남은 시간은 단 30일. NASA 연구원 파울러, 전직 우주 비행사 브라이언, 그리고 우주 덕후 KC는 달을 막을 방법을 찾기 위해 마지막 우주선에 오른다.</p></div> <div class="info"><p class="title">
+            문폴<!----></p> <p class="release">
+            개봉일:
+            2022년 2월 3일
+          </p> <a href="/movies/406759" class="button button-light">More</a></div></div><div class="movie"><div class="movie-img"><img src="https://image.tmdb.org/t/p/w500//yju3CSIR8fdNsZyPdMsUun7XQnd.jpg" alt=""> <p class="review">7</p> <p class="overview">시카고에 자리잡은 영국인 양복점 명장이 갱스터들과 엮이면서 겪게 되는 위험한 생존 게임을 다룬 영화</p></div> <div class="info"><p class="title">
+            아웃핏<!----></p> <p class="release">
+            개봉일:
+            2022년 2월 25일
+          </p> <a href="/movies/799876" class="button button-light">More</a></div></div><div class="movie"><div class="movie-img"><img src="https://image.tmdb.org/t/p/w500//g4tMniKxol1TBJrHlAtiDjjlx4Q.jpg" alt=""> <p class="review">6</p> <p class="overview">CIA 요원이자 전 연인(크리스 파인, 탠디 뉴턴)이 구출 임무를 실패하고 몇 년이 지난 뒤 재회하고, 업무와 개인적인 감정을 구분하지 못한다. 국제 스파이 행위, 도덕적 딜레마, 그리고 치명적인 배신을 다룬 눈을 뗄 수 없는 이야기다.</p></div> <div class="info"><p class="title">
+            배신의 만찬<!----></p> <p class="release">
+            개봉일:
+            2022년 4월 8일
+          </p> <a href="/movies/294793" class="button button-light">More</a></div></div><div class="movie"><div class="movie-img"><img src="https://image.tmdb.org/t/p/w500//19rA9FjhwI4VEfaCXV7648XUInR.jpg" alt=""> <p class="review">6</p> <p class="overview"></p></div> <div class="info"><p class="title">
+            La abuela<!----></p> <p class="release">
+            개봉일:
+            2022년 1월 28일
+          </p> <a href="/movies/661791" class="button button-light">More</a></div></div><div class="movie"><div class="movie-img"><img src="https://image.tmdb.org/t/p/w500//uvQbXjMgC5weQepx4jLJJ60H3N0.jpg" alt=""> <p class="review">6.8</p> <p class="overview">1930년대, 제2차 세계대전에 마법사들이 개입하게 되면서 강력한 어둠의 마법사 그린델왈드의 힘이 급속도로 커진다. 덤블도어는 뉴트 스캐맨더에게 위대한 마법사 가문 후손, 마법학교의 유능한 교사, 머글 등으로 이루어진 팀에게 임무를 맡긴다. 이에 뉴트와 친구들은 머글과의 전쟁을 선포한 그린델왈드와 추종자들, 그의 위험한 신비한 동물들에 맞서 세상을 구할 거대한 전쟁에 나선다. 한편 전쟁의 위기가 최고조로 달한 상황 속에서 덤블도어는 더 이상 방관자로 머물 수 없는 순간을 맞이하고, 서서히 숨겨진 비밀이 드러나는데...</p></div> <div class="info"><p class="title">
+            신비한 동물들과 덤블도어의 비밀<!----></p> <p class="release">
+            개봉일:
+            2022년 4월 6일
+          </p> <a href="/movies/338953" class="button button-light">More</a></div></div><div class="movie"><div class="movie-img"><img src="https://image.tmdb.org/t/p/w500//78JfwRiubwX87BYgPXsdFKBf9P5.jpg" alt=""> <p class="review">6.8</p> <p class="overview"></p></div> <div class="info"><p class="title">
+            Pil<!----></p> <p class="release">
+            개봉일:
+            2021년 8월 11일
+          </p> <a href="/movies/676705" class="button button-light">More</a></div></div><div class="movie"><div class="movie-img"><img src="https://image.tmdb.org/t/p/w500//xe8dVB2QiCxLWFV77V4dpZcOvYB.jpg" alt=""> <p class="review">8.1</p> <p class="overview">대국민 오디션 이후 각자의 자리에서 꿈을 이루고 있는 버스터 문(매튜 맥커너히)과 크루들에게 레드 쇼어 시티에서 전 세계가 주목하는 사상 최고의 쇼가 펼쳐진다는 소식이 들려오고 버스터 문과 크루들은 도전에 나선다. 그러나 최고의 스테이지에 서기 위한 경쟁은 이전과는 비교도 할 수 없을 만큼 치열하고, 버스터 문은 완벽한 라이브를 위해 종적을 감춘 레전드 뮤지션 클레이(보노)를 캐스팅하겠다는 파격 선언을 하는데!</p></div> <div class="info"><p class="title">
+            씽2게더<!----></p> <p class="release">
+            개봉일:
+            2021년 12월 1일
+          </p> <a href="/movies/438695" class="button button-light">More</a></div></div><div class="movie"><div class="movie-img"><img src="https://image.tmdb.org/t/p/w500//8uiV88A5eB7PjMTtY6lQBUZ0Cpl.jpg" alt=""> <p class="review">5.9</p> <p class="overview">희귀혈액병을 앓고 있는 생화학자 모비우스는 동료인 마르틴과 함께 치료제 개발에 몰두한다. 흡혈 박쥐를 연구하던 중 마침내 치료제 개발에 성공한 모비우스는 새 생명과 강력한 힘을 얻게 되지만, 동시에 흡혈을 하지 않고는 생명을 유지할 수 없게 된다. 그러던 중 모비우스와 같은 병을 앓고 있던 그의 친구 마일로도 모비우스와 같은 힘을 얻게 되는데…</p></div> <div class="info"><p class="title">
+            모비우스<!----></p> <p class="release">
+            개봉일:
+            2022년 3월 30일
+          </p> <a href="/movies/526896" class="button button-light">More</a></div></div><div class="movie"><div class="movie-img"><img src="https://image.tmdb.org/t/p/w500//9UzHZdXIIIbixHIwGZCN9VqplVG.jpg" alt=""> <p class="review">7.3</p> <p class="overview"></p></div> <div class="info"><p class="title">
+            2000 Mules<!----></p> <p class="release">
+            개봉일:
+            2022년 5월 2일
+          </p> <a href="/movies/933554" class="button button-light">More</a></div></div><div class="movie"><div class="movie-img"><img src="https://image.tmdb.org/t/p/w500//ejXBuNLvK4kZ7YcqeKqUWnCxdJq.jpg" alt=""> <p class="review">6.3</p> <p class="overview">황량한 황무지를 여행하던 두 명의 방랑자가 땅 속에 파묻힌 엄청나게 큰 금덩이를 발견한다. 그들이 가진 장비로는 도저히 금덩이를 캐낼 방법이 없자, 둘 중 한명이 굴삭기를 가져오기 위해 떠나고 한 명이 그동안 홀로 금덩이를 지켜기로 하는데...</p></div> <div class="info"><p class="title">
+            골드<!----></p> <p class="release">
+            개봉일:
+            2022년 1월 13일
+          </p> <a href="/movies/760926" class="button button-light">More</a></div></div><div class="movie"><div class="movie-img"><img src="https://image.tmdb.org/t/p/w500//fZid9LbFTZV7NjM0qMwL1mPjhqu.jpg" alt=""> <p class="review">6.4</p> <p class="overview">특수부대 중사 출신 ‘제임스 하퍼’는 전역을 명 받고 법의 테두리 밖에서 국가에 충성하는 극비 조직에 합류한다. 그에게 주어진 첫번째 미션은, 전세계를 혼란에 빠뜨릴 바이러스 테러를 막는 것. 그러나, 미션 수행 도중 거대한 음모에 휘말리게 되고 충격과 위기를 겪게 되는데… 더 이상 물러설 곳은 없다.  모든 것을 건, 새로운 미션이 시작된다!</p></div> <div class="info"><p class="title">
+            더 컨트랙터<!----></p> <p class="release">
+            개봉일:
+            2022년 3월 10일
+          </p> <a href="/movies/628900" class="button button-light">More</a></div></div><div class="movie"><div class="movie-img"><img src="https://image.tmdb.org/t/p/w500//61J34xHVVdQHbJ4MSCWQo4e727v.jpg" alt=""> <p class="review">5.9</p> <p class="overview"></p></div> <div class="info"><p class="title">
+            포트리스: 스나이퍼스 아이<!----></p> <p class="release">
+            개봉일:
+            2022년 4월 29일
+          </p> <a href="/movies/883502" class="button button-light">More</a></div></div><div class="movie"><div class="movie-img"><img src="https://image.tmdb.org/t/p/w500//j2lndg3r6pshxFJyDJZnn50EklS.jpg" alt=""> <p class="review">6.8</p> <p class="overview">잔혹한 살인 사건으로 우즈보로 마을이 충격에 휩싸인 지 25년이 지난 후,  고스트 페이스를 한 새로운 살인마가 다시 십대들을 노리면서 마을의 어두운 비밀이 다시 수면 위로 떠오르는데…</p></div> <div class="info"><p class="title">
+            스크림<!----></p> <p class="release">
+            개봉일:
+            2022년 1월 12일
+          </p> <a href="/movies/646385" class="button button-light">More</a></div></div><div class="movie"><div class="movie-img"><img src="https://image.tmdb.org/t/p/w500//ugIdyvtAzHWOguD91UjHKoAvfum.jpg" alt=""> <p class="review">6.9</p> <p class="overview">2000년부터 미국 MTV에서 방영되며 큰 인기를 끌었던 온갖 지저분하고 위험한 장난이 가득한 동명의 쇼 시리즈를 영화화하며 대박을 쳤던 잭애스 더 무비의 20주년을 기념하여 제작된 작품.  원심분리기에 묶여 돌고, 토할 때까지 강제로 음료수를 마시며, 대포에서 발사되는 등 독창적이지만 정신 나간 위험한 게임 속에서 벌어지는 잭애스 크루들의 무모한 도전과 뱀, 꿀벌, 곰, 황소, 전갈, 거대 거미 등의 위험한 동물과 곤충을 이용한 대결이 펼쳐집니다.  실제로 크루의 리더인 조니 낙스빌은 흥분한 황소에 치어 뇌출혈의 부상을 입기도 했다고 합니다.</p></div> <div class="info"><p class="title">
+            잭애스 포에버<!----></p> <p class="release">
+            개봉일:
+            2022년 2월 1일
+          </p> <a href="/movies/656663" class="button button-light">More</a></div></div></div></section></div></div></div></div><script>window.__NUXT__={staticAssetsBase:"/_nuxt/static/1652190357",layout:"default",error:null,serverRendered:!0,routePath:"/",config:{_app:{basePath:"/",assetsPath:"/_nuxt/",cdnURL:null}}}</script><script src="/_nuxt/280189d.js" defer></script><script src="/_nuxt/4a3d2f3.js" defer></script><script src="/_nuxt/2e97453.js" defer></script><script src="/_nuxt/0320fe3.js" defer></script><script src="/_nuxt/2b7e5a1.js" defer></script>
+  </body>
+</html>
